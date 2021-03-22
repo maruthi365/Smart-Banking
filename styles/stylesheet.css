@@ -1,0 +1,124 @@
+body{
+	 font: 14px sans-serif;
+	 text-align: center; 
+   }
+   table, th, td {
+            border: 1px solid black;
+        }
+        html{
+            height:100%;
+            margin: 0;
+        }
+        .bg{
+            height:100%;
+            background-image: url('bank.jpg');
+            background-position: center;
+            background-repeat: no-repeat;;
+            background-size: cover;
+        }
+        .header{
+          padding-bottom: 50px;
+        }
+   .main-nav{
+    background-color: black;
+    padding: 5px;
+    box-shadow: 0 0 10px black;
+}
+.main-nav a{
+    color: white;
+    text-decoration: none;
+    padding: 10px 25px;
+    display: inline-block;
+}
+.main-nav a:hover{
+    background-color: #964e40;
+}
+.main-nav a.active{
+    background-color: darkred;
+}
+.contact-section{
+    background: white url("../images/image5.jpeg") no-repeat bottom;
+    padding: 20px;
+}
+.contact-article{
+    width: 250px;
+    text-align: center;
+    margin: auto;
+    background-color: rgba(0,0,0,0.5);
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px black;
+}
+.contact-article h2{
+    color: white;
+}
+.input-field{
+    font-size: 18px;
+    text-align: center;
+    border: none;
+    outline: none;
+    margin: 5px;
+    height: 35px;
+    width: 200px;
+    background: transparent;
+    border-bottom: 3px solid #514640;
+    color: white;
+}
+textarea{
+    border: 3px solid #514640;
+    outline: none;
+    background: transparent;
+    margin: 5px;
+    border-radius: 10px;
+    width: 180px;
+}
+textarea:focus{
+    border: 3px solid #bca487;
+}
+::placeholder{
+    color: lightgray;
+}
+.input-field:focus{
+    border-bottom: 3px solid #bca487;
+}
+#submit-btn{
+    background-color: #514640;
+    color: white;
+    border: none;
+    font-size: 18px;
+    padding: 10px 50px;
+    box-shadow: 0 0 10px black;
+    border-radius: 50px;
+    margin: 10px;
+    outline: none;
+}
+#submit-btn:hover{
+    background-color: #bca487;
+    color: black;
+    cursor: pointer;
+}
+//.loginbox-right{
+    background-size: cover;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    height:auto;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    padding:50px 100px;
+    display:table-cell;
+    width:50%;    
+    vertical-align: middle;
+}
+.loginbox-right{
+    display:block;
+    border-radius:0;
+    width:100%;
+}
+.loginbox-right{
+    padding:30px;
+ }
+ .loginbox-right{
+    width:60%;
+    padding:50px;
+ }//
